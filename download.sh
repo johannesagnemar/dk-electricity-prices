@@ -1,0 +1,2 @@
+curl -g -o data/elspotprices.csv 'https://api.energidataservice.dk/dataset/Elspotprices/download?format=csv&start=2015-01-01&end=2025-10-01&filter={"PriceArea":["DK1","DK2","DE","NO2","SE3","SE4","SYSTEM"]}&limit=0'
+curl -g -o data/dayaheadprices.csv 'https://api.energidataservice.dk/dataset/DayAheadPrices/download?format=csv&start=2025-10-01&filter={"PriceArea":["DK1","DK2","DE","NO2","SE3","SE4"]}&limit=0'
